@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4A753C17D69FD5001E1078 /* EF_Education_First_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A4A753B17D69FD5001E1078 /* EF_Education_First_logo.jpg */; };
+		0A4A754A17D77F9C001E1078 /* QuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A754817D77F9C001E1078 /* QuestionView.m */; };
+		0A4A762A17D98D3E001E1078 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A762817D98D3D001E1078 /* ScoreViewController.m */; };
 		0A8AE25A17D568A00056C0D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8AE25917D568A00056C0D3 /* UIKit.framework */; };
 		0A8AE25C17D568A00056C0D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8AE25B17D568A00056C0D3 /* Foundation.framework */; };
 		0A8AE25E17D568A00056C0D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8AE25D17D568A00056C0D3 /* CoreGraphics.framework */; };
@@ -23,6 +26,7 @@
 		0A8AE28017D568A00056C0D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8AE25B17D568A00056C0D3 /* Foundation.framework */; };
 		0A8AE28817D568A00056C0D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A8AE28617D568A00056C0D3 /* InfoPlist.strings */; };
 		0A8AE28B17D568A00056C0D3 /* IceBreakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AE28A17D568A00056C0D3 /* IceBreakerTests.m */; };
+		0A8AE29617D5697F0056C0D3 /* FlashCards.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AE29517D5697F0056C0D3 /* FlashCards.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A4A753B17D69FD5001E1078 /* EF_Education_First_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EF_Education_First_logo.jpg; sourceTree = "<group>"; };
+		0A4A754717D77F9C001E1078 /* QuestionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionView.h; sourceTree = "<group>"; };
+		0A4A754817D77F9C001E1078 /* QuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionView.m; sourceTree = "<group>"; };
+		0A4A762717D98D3D001E1078 /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreViewController.h; path = ../ScoreViewController.h; sourceTree = "<group>"; };
+		0A4A762817D98D3D001E1078 /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScoreViewController.m; path = ../ScoreViewController.m; sourceTree = "<group>"; };
 		0A8AE25617D568A00056C0D3 /* IceBreaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceBreaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8AE25917D568A00056C0D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0A8AE25B17D568A00056C0D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +67,8 @@
 		0A8AE28717D568A00056C0D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A8AE28917D568A00056C0D3 /* IceBreakerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IceBreakerTests.h; sourceTree = "<group>"; };
 		0A8AE28A17D568A00056C0D3 /* IceBreakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IceBreakerTests.m; sourceTree = "<group>"; };
+		0A8AE29417D5697F0056C0D3 /* FlashCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCards.h; sourceTree = "<group>"; };
+		0A8AE29517D5697F0056C0D3 /* FlashCards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCards.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +133,12 @@
 				0A8AE27117D568A00056C0D3 /* MainStoryboard.storyboard */,
 				0A8AE27417D568A00056C0D3 /* ViewController.h */,
 				0A8AE27517D568A00056C0D3 /* ViewController.m */,
+				0A8AE29417D5697F0056C0D3 /* FlashCards.h */,
+				0A8AE29517D5697F0056C0D3 /* FlashCards.m */,
+				0A4A754717D77F9C001E1078 /* QuestionView.h */,
+				0A4A754817D77F9C001E1078 /* QuestionView.m */,
+				0A4A762717D98D3D001E1078 /* ScoreViewController.h */,
+				0A4A762817D98D3D001E1078 /* ScoreViewController.m */,
 				0A8AE26017D568A00056C0D3 /* Supporting Files */,
 			);
 			path = IceBreaker;
@@ -135,6 +152,7 @@
 				0A8AE26517D568A00056C0D3 /* main.m */,
 				0A8AE26717D568A00056C0D3 /* IceBreaker-Prefix.pch */,
 				0A8AE26B17D568A00056C0D3 /* Default.png */,
+				0A4A753B17D69FD5001E1078 /* EF_Education_First_logo.jpg */,
 				0A8AE26D17D568A00056C0D3 /* Default@2x.png */,
 				0A8AE26F17D568A00056C0D3 /* Default-568h@2x.png */,
 			);
@@ -236,6 +254,7 @@
 				0A8AE26E17D568A00056C0D3 /* Default@2x.png in Resources */,
 				0A8AE27017D568A00056C0D3 /* Default-568h@2x.png in Resources */,
 				0A8AE27317D568A00056C0D3 /* MainStoryboard.storyboard in Resources */,
+				0A4A753C17D69FD5001E1078 /* EF_Education_First_logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +292,9 @@
 				0A8AE26617D568A00056C0D3 /* main.m in Sources */,
 				0A8AE26A17D568A00056C0D3 /* AppDelegate.m in Sources */,
 				0A8AE27617D568A00056C0D3 /* ViewController.m in Sources */,
+				0A8AE29617D5697F0056C0D3 /* FlashCards.m in Sources */,
+				0A4A754A17D77F9C001E1078 /* QuestionView.m in Sources */,
+				0A4A762A17D98D3E001E1078 /* ScoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +406,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IceBreaker/IceBreaker-Prefix.pch";
 				INFOPLIST_FILE = "IceBreaker/IceBreaker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,7 +419,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IceBreaker/IceBreaker-Prefix.pch";
 				INFOPLIST_FILE = "IceBreaker/IceBreaker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -453,6 +479,7 @@
 				0A8AE29017D568A00056C0D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A8AE29117D568A00056C0D3 /* Build configuration list for PBXNativeTarget "IceBreakerTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +488,7 @@
 				0A8AE29317D568A00056C0D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,12 +7,21 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "QuestionView.h"
 
 @implementation AppDelegate
+
+@synthesize window;
+@synthesize mainViewController;
+@synthesize questionViewController;
+//@synthesize textColor;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [window addSubview:mainViewController.view];
+	[window makeKeyAndVisible];
     return YES;
 }
 							
@@ -43,4 +52,38 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+/* this stuff i don't think is used
+- (void)goToQuestionView {
+	QuestionView *aQuestionView = [[QuestionView alloc] initWithNibName:@"QuestionView" bundle:nil];
+	[self setQuestionViewController:aQuestionView];
+    //set the class's instance veriable to questionview
+    
+	//[aQuestionView release];
+	
+	[UIView beginAnimations:nil context:NULL];
+	[UIView setAnimationDuration:2.0];
+	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:window cache:YES];
+	[mainViewController.view removeFromSuperview];
+    //tell it to remove itself from the Super View
+    
+	[self.window addSubview:[questionViewController view]];
+    //load it up
+	[UIView commitAnimations];
+    //do the animation
+}
+
+- (void)flipToFront {
+	[UIView beginAnimations:nil context:NULL];
+	[UIView setAnimationDuration:2.0];
+	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:window cache:NO];
+	[questionViewController.view removeFromSuperview];
+	[self.window addSubview:[mainViewController view]];
+	[UIView commitAnimations];
+	//[questionViewController release];
+	questionViewController = nil;
+}
+*/
+
+
 @end
+

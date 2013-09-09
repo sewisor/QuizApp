@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FlashCards.h"
+#import "QuestionView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    int userScore;
+    NSMutableArray *arrayOfQuestions;
+}
+
+@property (strong, nonatomic) IBOutlet UIView *welcomeScreenOutlet;
 
 @end

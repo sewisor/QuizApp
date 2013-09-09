@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QuestionView.h"
 
-@interface ScoreViewController : UIViewController
+
+@interface ScoreViewController : UIViewController {
+
+}
+
+@property (nonatomic) int finalScore;
+@property (weak, nonatomic) IBOutlet UILabel *scoreBoardOutlet;
+@property int otherScore;
+
 
 @end

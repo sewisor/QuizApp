@@ -7,9 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
+#import "QuestionView.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class ViewController, QuestionView;
 
-@property (strong, nonatomic) UIWindow *window;
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    IBOutlet UIWindow *window;
+	IBOutlet ViewController *mainViewController;
+	IBOutlet QuestionView *questionViewController;
+}
+/*
+- (void)goToQuestionView;
+- (void)flipToFront;
+ */
+
+@property (nonatomic, retain) UIWindow *window;
+@property (nonatomic, retain) ViewController *mainViewController;
+@property (nonatomic, retain) QuestionView *questionViewController;
 
 @end

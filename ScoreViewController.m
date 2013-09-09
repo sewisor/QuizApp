@@ -14,6 +14,7 @@
 
 @implementation ScoreViewController
 
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -25,6 +26,13 @@
 
 - (void)viewDidLoad
 {
+    NSLog(@"We got here");
+    
+    //_finalScore = QuestionView.quizScore;
+    
+    
+    NSLog(@"final score is %d", _finalScore);
+    _scoreBoardOutlet.text = [NSString stringWithFormat: @"%d", _finalScore];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
